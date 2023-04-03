@@ -41,8 +41,6 @@
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 redux-app <a name="about-project"></a>
-- This is the project of a website for adding, storing, deleting and editing books.
-
 - I built this project to improve my skills in web development.
 - I developed using front end languages and redux for user exprience.
 
