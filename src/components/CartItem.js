@@ -16,7 +16,9 @@ const CartItem = ({ id, img, title, price, amount }) => {
       </div>
       <div>
         {/* increase amount */}
-        <button className='amount-btn'>
+        <button className='amount-btn' onClick={()=>{
+          dispatch(increase({id}));
+        }}>
           <ChevronUp />
         </button>
         {/* amount */}
